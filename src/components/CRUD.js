@@ -22,10 +22,10 @@ export default function CRUD() {
 
 
 
-        <div className="container-fluid text-center item-center">
+        <div className="container-fluid text-center item-center ms-4">
           <div class="row row-cols row-cols-md ">
             {/* <div className="col-3"></div> */}
-            <div class="col-3 mx-5">
+            <div class="col-3 mx-4">
               <div class="card">
                 <img src={circ.Team1Image} class="card-img-top" width={"540" + "px"} alt="..." />
                 <div class="card-body">
@@ -33,8 +33,12 @@ export default function CRUD() {
                 </div>
               </div>
             </div>
-            <div className="col-3 p-5"> 
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq4niYY9AxyCmjr2L9_UDNl4hFsP9hwx4NaA&usqp=CAU" width={"140" + "px"} alt="..." />
+            <div className="col-3 mx-4 p-5"> 
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq4niYY9AxyCmjr2L9_UDNl4hFsP9hwx4NaA&usqp=CAU" class="card-img-top" width={"540" + "px"} alt="..." />
+                
+              </div>
+              
             </div>
             <div class="col-3 mx-4">
               <div class="card">
