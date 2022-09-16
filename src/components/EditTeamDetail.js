@@ -17,31 +17,31 @@ export default function EditTeamDetail() {
     return (
     <div className="container">
         <h2 className="text-center m-3">Edit Team</h2>
-        <div className="container-fluid m-3 border border-primary p-4">
+        <div className="container-fluid border border-primary p-4">
             
             <div className="row g-3">
-                <div className="col-md-3 g-4">
+                <div className="col-md-3">
                     <label for="inputEmail4" className="form-label" >Team1Name</label>
                     <input type="email" className="form-control" placeholder="name" onChange={(e) => { setData({ ...data, Team1Name: e.target.value }); }} value={data.Team1Name} id="inputEmail4" />
                 </div>
-                <div className="col-md-8 g-4">
+                <div className="col-md-8">
                     <label for="inputPassword4" className="form-label">Team1Image</label>
                     <input type="text" className="form-control" onChange={(e) => { setData({ ...data, Team1Image: e.target.value }); }} value={data.Team1Image} placeholder="Team1Image" id="inputPassword4" />
                 </div>
-                <div className="col-md-3 g-4">
+                <div className="col-md-3">
                     <label for="inputEmail4" className="form-label" >Team2Name</label>
                     <input type="email" className="form-control" placeholder="name" onChange={(e) => { setData({ ...data, Team2Name: e.target.value }); }} value={data.Team2Name} id="inputEmail4" />
                 </div>
-                <div className="col-md-8 g-4">
+                <div className="col-md-8">
                     <label for="inputAddress2" className="form-label">Team2Image</label>
                     <input type="text" className="form-control" id="inputAddress2" onChange={(e) => { setData({ ...data, Team2Image: e.target.value }); }} value={data.Team2Image} placeholder="Team2Image" />
                 </div>
 
-                <div class="col-md-3 g-4">
+                <div class="col-md-3">
                     <label for="formFile" class="form-label">Match Date</label>
                     <input class="form-control" type="date" id="formFile" onChange={(e) => { setData({ ...data, MatchDate: e.target.value }); }} value={data.MatchDate} placeholder="Matchdate" />
                 </div>
-                <div className="col-md-3 g-4">
+                <div className="col-md-3">
                     <label for="inputEmail4" className="form-label" >winnerName</label>
                     <input type="email" className="form-control" placeholder="name" onChange={(e) => { setData({ ...data, winnerName: e.target.value }); }} value={data.winnerName} id="inputEmail4" />
                 </div>
